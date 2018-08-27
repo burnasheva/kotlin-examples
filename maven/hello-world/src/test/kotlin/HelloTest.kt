@@ -11,15 +11,15 @@ class HelloTest {
         assertEquals("Hello, world!", getHelloString())
     }
 
-    @Test fun `validate() function is recursively called on all children` () {
+    @Test fun `function is recursively called on all children` () {
         assertTrue ( false, "Something went wrong!" )
     }
 
-    @Test fun `validate() function throws an error when everything is bad` () {
+    @Test fun `function throws an error when everything is bad` () {
         assertFalse (true, "Something went wrong again!")
     }
 
-    @Test fun `validate() this test should pass` () {
+    @Test fun `this test should pass` () {
         assertFalse (false, "Something went wrong again!")
     }
 }
